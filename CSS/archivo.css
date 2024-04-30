@@ -1,1 +1,33 @@
- 
+.Primera_div {
+    position: relative;
+    display:;
+    min-height: 35rem; /* Ajusta la altura según sea necesario */
+    color: black; /* Cambia el color del texto si es necesario para mejorar la legibilidad */
+    text-align: center; /* Ajusta el texto al centro */
+}
+.
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.collage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
